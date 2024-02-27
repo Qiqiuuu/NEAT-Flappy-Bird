@@ -1,4 +1,13 @@
-# flappy-bird-ai
+# NEAT-Flappy-Bird
+Build with pygame and NEAT-Python library
 ## First AI project 
-Build with pygame
-### Work in progress, stay tuned :D
+My first small project with neural networks. A bit messy but it works!
+There is a few files:
+    game.py - Pure self-created Flappy Bird
+    game_NEAT.py - Game with NEAT implemented 
+    neat-config.txt - File with configuration for NEAT (it's very basic)
+    Game Objects,Sound Efects,UI - Flappy Bird ASSETS by kosresetr55
+    https://kosresetr55.itch.io/flappy-bird-assets-by-kosresetr55
+
+### Hope you like it :D
+
