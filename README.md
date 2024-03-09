@@ -1,5 +1,5 @@
 # NEAT-Flappy-Bird
-Build with pygame and NEAT-Python library
+Build with Pygame and NEAT-Python libraries
 ## First AI project 
 My first small project with neural networks. A bit messy but it works!\
 There are a few files:\
