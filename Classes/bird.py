@@ -1,3 +1,5 @@
+import pygame
+
 #Bird Class
 class Bird(pygame.sprite.Sprite):
     def __init__(self,screen):
@@ -39,7 +41,13 @@ class Bird(pygame.sprite.Sprite):
             self.brid_index = (self.brid_index +  1) % len(self.bird_fly)
             self.image = self.bird_fly[self.brid_index]
 
-    #Neat space controll
+    #Player control
+    def player_input(self):
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_SPACE]:
+            self.gravity = -3
+
+    #Neat space control
     def neat_space(self):
         self.gravity = -3
 
@@ -57,6 +65,7 @@ class Bird(pygame.sprite.Sprite):
         self.animation_state()
         self.apply_gravity()
         self.distance()
+        self.player_input()
 
     #Check collisions
     def collision(self, pipes):

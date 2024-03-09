@@ -1,3 +1,6 @@
+import pygame
+
+
 #Class of single pipe
 class Pipe(pygame.sprite.Sprite):
     def __init__(self, x_pos, y_pos, image_path):

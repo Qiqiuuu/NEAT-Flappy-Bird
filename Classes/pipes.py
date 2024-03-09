@@ -1,3 +1,6 @@
+import pygame
+from .pipe import Pipe
+
 #Class of pipe row (top and bottom)
 class Pipes(pygame.sprite.Group):
     def __init__(self, x_pos, y_pos):
